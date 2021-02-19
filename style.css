@@ -25,8 +25,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* margin: auto; */
-    /* padding: 10px 10px 10px; */
     opacity: 0.6;
     top: 0;
     display: block;
@@ -90,13 +88,6 @@ p3 div {
 
 /* -------main text------ */
 
-p.main {
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-
 .main {
     display: flex;
     flex-wrap: wrap;
@@ -105,21 +96,10 @@ p.main {
     line-height: 2;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
 } 
     
-    /* 
-    
-    margin-top: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-    font-size: 100%;
-    
-    
-    flex-direction: column;
-    
-    border: 2px solid; */
 
 
 @media (min-width:480px) {
